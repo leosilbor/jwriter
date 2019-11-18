@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<jnlp spec="1.0+" codebase="$appURL">
+	<information>
+		<title>jWritter</title>
+		<vendor>jWritter</vendor>
+		<homepage href="$appURL" />
+		<description>jWritter</description>
+		<shortcut>
+			<desktop />
+			<menu submenu="jWritter"/>
+		</shortcut>				
+	</information>
+	<security>
+		<all-permissions/>
+	</security>
+	<resources>
+		<j2se java-vm-args="-Xnosplash" version="1.5+" href="http://java.sun.com/products/autodl/j2se"/>
+		<jar href="$jarsPath/$mainJar" main="true" download="eager"/>
+		<property name="sdm_lf" value="integrated"/>
+	</resources>
+	<application-desc main-class="$mainClass">
+	#foreach( $arg in $arguments )
+		<argument>$arg</argument>
+	#end
+	</application-desc>
+</jnlp>

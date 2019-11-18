@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<jnlp spec="1.0+">
+	<information>
+		<title>jWritter</title>
+		<vendor>jWritter</vendor>
+		<description>jWritter</description>
+		<shortcut>
+			<desktop />
+			<menu submenu="jWritter"/>
+		</shortcut>				
+	</information>
+	<security>
+		<all-permissions/>
+	</security>
+	<resources>
+		<j2se java-vm-args="-Xnosplash" version="1.5+" href="http://java.sun.com/products/autodl/j2se"/>
+		
+		<property name="sdm_lf" value="integrated"/>
+	</resources>
+	<application-desc />
+	
+</jnlp>

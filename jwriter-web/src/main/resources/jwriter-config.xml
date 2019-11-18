@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jwritter-config>
+	<initial-configuration jarsPath="libs/jwriter" writerPort="8854" language="en" 
+		logPattern="%d{ABSOLUTE} %5p %c{1}:%L - %m%n" title="jWriter 1.0"
+		officePort="8853" bootstrapJar="jwriter-bootstrap-1.0.0-signed.jar" />
+</jwritter-config>
